@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    }
+    
+    .title{ 
+    
+        text-align: center;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+        color: rgb(204, 19, 19);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    
+    }
+    
+    
+    .pdfview {
+    
+        margin: auto;
+        display: block;
+        width: 850px;
+        height: 100vh;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+        0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    
+    }
+    
+    p{ background: #03001e;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #fdeff9, #ec38bc, #7303c0, #03001e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            
+        color: white;
+        display: flex;
+        width: 40%;
+        height: 100px;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 2px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+    margin-left: 30%;
+    margin-bottom: 5%;
+    font-weight: 300;
+                padding-top: 5px;
+                font-family: 'Open Sans', sans-serif;}
+    
+                img{width: 50%;
+                    height: 50%px;
+                    object-fit: cover;
+                    border: 3px solid rgb(0, 0, 0);
+                    border-radius: 50%;
+                    display: block;
+                margin: auto;}
